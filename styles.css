@@ -1,5 +1,4 @@
 
-
 /* =================== nav-items ============================ */
 
 .nav-list {
@@ -80,7 +79,6 @@
     display: flex;
     justify-content: center;
     padding-top: 0.625rem;
-    /* margin-right: 1.25rem;    */
 }
 
 .search-box {
@@ -91,11 +89,6 @@
     padding-left: 3.125rem;
     padding-right: 3.125rem;
     border: 1px solid #e5e5e5;    
-}
-
-.search-box:hover {
-    border: 1px solid lightgray; 
-    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.15);
 }
 
 .search-img img {
@@ -112,12 +105,12 @@
 }
 
 .voice-search {
-    width: 13px;
-    height: 20px;
+    width: 0.813rem;
+    height: 1.25rem;
     display:inline-block;
     position: relative;
-    right: 40px;
-    top: 5px;
+    right: 2.5rem;
+    top: 0.313rem;
 }
 
 .tooltip {
@@ -128,17 +121,18 @@
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 110px;
     background-color: black;
     color: #fff;
     text-align: center;
-    /* border-radius: 6px; */
-    padding: 5px 0px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 7px 0px;
     position: absolute;
     z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
+    top: 190%;
+    left: -3rem;
+    margin-left: -2.5rem;
   }
   
   .tooltip .tooltiptext::after {
@@ -150,6 +144,7 @@
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent black transparent;
+    
   }
   
   .tooltip:hover .tooltiptext {
@@ -157,22 +152,10 @@
 }
 
 
-
-
-
-
-
-
-
-/* .search-mic {
-    display:inline-block;
-    width: 15px;
-    height: 22px;
-    position: absolute;
-    margin-left: -35px;
-    margin-top: 13px; 
-} */
-
+.search-box:hover {
+    border: 1px solid lightgray; 
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.15);
+}
 
 
 /* ======== end search bar items ================================== */
@@ -185,13 +168,16 @@
 }
 
 .buttons button {
-    margin-top: 30px;
-    margin-right: 15px;
+    background-color: rgba(238,238,238,0.8);
+    color: #4d5055;
+    font-size: 0.875rem;
+    margin-top: 1.875rem;
+    margin-right: 0.938rem;
     border-radius: 4px;
     border: 0;
     padding: 5px;
     width: 150px;
-    height: 40px;
+    height: 2.5rem;
     cursor: pointer;  
 }
 
@@ -204,41 +190,31 @@
 
 
 .footer-list {
-    
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-
     list-style: none;
-
-    background: lightgray;
-    border-top: 1px solid gray;
-
+    background: rgba(238,238,238,0.8);
+    border-top: 1px solid #e5e5e5;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-
-    width: 100%;
-    height: 2.5rem;
-    padding: 20px;
-    margin: 0 auto;
-    
-    
+    height: 0.188rem;
+    padding: 1.25rem;
+    margin: 0 auto;   
 }
 
 .right-footer, .left-footer {
     display: flex;
-    margin: 20px; 
+    margin: 1.25rem; 
 }
 
 .footer-list a {
     text-decoration: none;
-    color: gray;
-    font-size: 15px;
+    color: #4d5055;
+    font-size: 0.875rem;
     margin-right: 1rem;
 }
 
